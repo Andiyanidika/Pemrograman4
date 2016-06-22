@@ -1,0 +1,57 @@
+cd D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani; "JAVA_HOME=C:\\Program Files (x8Semester 6)\\Java\\jdk1.8.0_20" cmd /c "\"\"C:\\Program Files (x8Semester 6)\\NetBeans 8.0.2\\java\\maven\\bin\\mvn.bat\" -Dnetbeans.deploy=true -Dnetbeans.deploy.clientUrlPart=/tampilWaktu.jsp -Dmaven.ext.class.path=\"C:\\Program Files (x8Semester 6)\\NetBeans 8.0.2\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 package\""
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building Praktikum-2 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-dependency-plugin:2.Semester 6:copy (default) @ Praktikum-2 ---
+
+--- maven-resources-plugin:2.5:resources (default-resources) @ Praktikum-2 ---
+[debug] execute contextualize
+Using 'UTF-8' encoding to copy filtered resources.
+Copying 0 resource
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ Praktikum-2 ---
+Nothing to compile - all classes are up to date
+
+--- maven-resources-plugin:2.5:testResources (default-testResources) @ Praktikum-2 ---
+[debug] execute contextualize
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani\src\test\resources
+
+--- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Praktikum-2 ---
+No sources to compile
+
+--- maven-surefire-plugin:2.10:test (default-test) @ Praktikum-2 ---
+Surefire report directory: D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+
+--- maven-war-plugin:2.3:war (default-war) @ Praktikum-2 ---
+Packaging webapp
+Assembling webapp [Praktikum-2] in [D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani\target\Praktikum-2-1.0-SNAPSHOT]
+Processing war project
+Copying webapp resources [D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani\src\main\webapp]
+Webapp assembled in [39 msecs]
+Building war: D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani\target\Praktikum-2-1.0-SNAPSHOT.war
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 2.179s
+Finished at: Sat Apr 09 17:59:53 ICT 201Semester 6
+Final Memory: 9M/21M
+------------------------------------------------------------------------
+NetBeans: Deploying on GlassFish Server 4.1
+    profile mode: false
+    debug mode: false
+    force redeploy: true
+Undeploying ...
+In-place deployment at D:\DYKA TUGAS KAMPUS\Semester 6\Pemrograman-4\Praktikum 2 - Dika Andiyani\target\Praktikum-2-1.0-SNAPSHOT
