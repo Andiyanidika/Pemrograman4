@@ -1,0 +1,224 @@
+
+COMPILE JAVA WEB
+
+D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1>mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building praktikum1 Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ praktikum1
+ ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ praktikum1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pr
+aktikum1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\TUGAS KAMPUS DIKA\Semester 6\P4\pr
+aktikum1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ praktik
+um1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ praktikum1 ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ praktikum1 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [praktikum1] in [D:\TUGAS KAMPUS DIKA\Semester 6\P4\pra
+ktikum1\target\praktikum1]
+[INFO] Processing war project
+[INFO] Copying webapp resources [D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\s
+rc\main\webapp]
+[INFO] Webapp assembled in [219 msecs]
+[INFO] Building war: D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\prakti
+kum1.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.521 s
+[INFO] Finished at: 2016-03-29T15:15:12+07:00
+[INFO] Final Memory: 7M/19M
+[INFO] ------------------------------------------------------------------------
+
+//RUNNING PROGRAM
+
+
+D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1>mvn clean install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building praktikum1 Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ praktikum1 ---
+[INFO] Deleting D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ praktikum1
+ ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ praktikum1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pr
+aktikum1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\TUGAS KAMPUS DIKA\Semester 6\P4\pr
+aktikum1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ praktik
+um1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ praktikum1 ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ praktikum1 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [praktikum1] in [D:\TUGAS KAMPUS DIKA\Semester 6\P4\pra
+ktikum1\target\praktikum1]
+[INFO] Processing war project
+[INFO] Copying webapp resources [D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\s
+rc\main\webapp]
+[INFO] Webapp assembled in [138 msecs]
+[INFO] Building war: D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\prakti
+kum1.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ praktikum1 ---
+[INFO] Installing D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\praktikum
+1.war to C:\Users\Dika Andi Y\.m2\repository\com\dykaandiyani\tugas1\praktikum1\
+1.0-SNAPSHOT\praktikum1-1.0-SNAPSHOT.war
+[INFO] Installing D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\pom.xml to C:\Us
+ers\Dika Andi Y\.m2\repository\com\dykaandiyani\tugas1\praktikum1\1.0-SNAPSHOT\p
+raktikum1-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.093 s
+[INFO] Finished at: 2016-03-29T15:19:54+07:00
+[INFO] Final Memory: 8M/19M
+[INFO] ------------------------------------------------------------------------
+
+D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1>mvn clean install jetty:run
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building praktikum1 Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ praktikum1 ---
+[INFO] Deleting D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ praktikum1
+ ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ praktikum1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pr
+aktikum1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\TUGAS KAMPUS DIKA\Semester 6\P4\pr
+aktikum1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ praktik
+um1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ praktikum1 ---
+[INFO] No tests to run.
+[INFO]
+[INFO] --- maven-war-plugin:2.2:war (default-war) @ praktikum1 ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [praktikum1] in [D:\TUGAS KAMPUS DIKA\Semester 6\P4\pra
+ktikum1\target\praktikum1]
+[INFO] Processing war project
+[INFO] Copying webapp resources [D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\s
+rc\main\webapp]
+[INFO] Webapp assembled in [164 msecs]
+[INFO] Building war: D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\prakti
+kum1.war
+[INFO] WEB-INF\web.xml already added, skipping
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ praktikum1 ---
+[INFO] Installing D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\praktikum
+1.war to C:\Users\Dika Andi Y\.m2\repository\com\dykaandiyani\tugas1\praktikum1\
+1.0-SNAPSHOT\praktikum1-1.0-SNAPSHOT.war
+[INFO] Installing D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\pom.xml to C:\Us
+ers\Dika Andi Y\.m2\repository\com\dykaandiyani\tugas1\praktikum1\1.0-SNAPSHOT\p
+raktikum1-1.0-SNAPSHOT.pom
+[INFO]
+[INFO] >>> jetty-maven-plugin:8.1.5.v20120716:run (default-cli) > test-compile @
+ praktikum1 >>>
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ praktikum1
+ ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ praktikum1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pr
+aktikum1 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources,
+i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\TUGAS KAMPUS DIKA\Semester 6\P4\pr
+aktikum1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ praktik
+um1 ---
+[INFO] No sources to compile
+[INFO]
+[INFO] <<< jetty-maven-plugin:8.1.5.v20120716:run (default-cli) < test-compile @
+ praktikum1 <<<
+[INFO]
+[INFO] --- jetty-maven-plugin:8.1.5.v20120716:run (default-cli) @ praktikum1 ---
+
+[INFO] Configuring Jetty for project: praktikum1 Maven Webapp
+[INFO] webAppSourceDirectory D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\src\m
+ain\webapp does not exist. Defaulting to D:\TUGAS KAMPUS DIKA\Semester 6\P4\prak
+tikum1\src\main\webapp
+[INFO] Reload Mechanic: automatic
+[INFO] Classes = D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\classes
+[INFO] Context path = /
+[INFO] Tmp directory = D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\target\tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] web.xml file = file:/D:/TUGAS%20KAMPUS%20DIKA/Semester%206/P4/praktikum1/
+src/main/webapp/WEB-INF/web.xml
+[INFO] Webapp directory = D:\TUGAS KAMPUS DIKA\Semester 6\P4\praktikum1\src\main
+\webapp
+[INFO] jetty-8.1.5.v20120716
+[INFO] No Transaction manager found - if your webapp requires one, please config
+ure one.
+[INFO] started o.m.j.p.JettyWebAppContext{/,file:/D:/TUGAS%20KAMPUS%20DIKA/Semes
+ter%206/P4/praktikum1/src/main/webapp/},file:/D:/TUGAS%20KAMPUS%20DIKA/Semester%
+206/P4/praktikum1/src/main/webapp/
+[INFO] started o.m.j.p.JettyWebAppContext{/,file:/D:/TUGAS%20KAMPUS%20DIKA/Semes
+ter%206/P4/praktikum1/src/main/webapp/},file:/D:/TUGAS%20KAMPUS%20DIKA/Semester%
+206/P4/praktikum1/src/main/webapp/
+[INFO] started o.m.j.p.JettyWebAppContext{/,file:/D:/TUGAS%20KAMPUS%20DIKA/Semes
+ter%206/P4/praktikum1/src/main/webapp/},file:/D:/TUGAS%20KAMPUS%20DIKA/Semester%
+206/P4/praktikum1/src/main/webapp/
+[INFO] Started SelectChannelConnector@0.0.0.0:8080
+[INFO] Started Jetty Server
